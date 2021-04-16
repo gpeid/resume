@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header > div {
+}
+
+.section_name {
+  flex: 1 1 50%;
+  
+}
+.name {
+  font-size: 1.5em;
+}
+
+.section_contact_list_container {
+  flex: 0 0 36%;
+
+}
+
+.contact_list {
+  list-style: none;
+}
