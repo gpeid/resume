@@ -1,6 +1,4 @@
-import { array, string } from "prop-types"
-
-export const contactLinks = [
+const contactLinksArray = [
   {
     name: "email",
     url: "ghdiep@gmail.com",
@@ -19,17 +17,7 @@ export const contactLinks = [
   },
 ]
 
-// object = {
-//   position: string,
-//   company: string,
-//   stack: array[string],
-//   employment_period_from: string,
-//   employment_period_to: string,
-//   work_list: array[string],
-//   highlights: array[string],
-// }
-
-export const experience = [
+const workExperienceArray = [
   {
     position: "Software Developer",
     company: "Booz Allen Hamilton",
@@ -150,7 +138,7 @@ export const experience = [
 //   attendance_period_to: number,
 // }
 
-export const education = [
+const educationArray = [
   {
     degree: "Bachelors of Science, Information Systems",
     school: "University of Maryland, Baltimore County",
@@ -158,3 +146,5 @@ export const education = [
     attendance_period_to: 2010,
   },
 ]
+
+export { contactLinksArray, workExperienceArray, educationArray }
