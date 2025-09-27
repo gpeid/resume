@@ -1,4 +1,4 @@
-import React from "react"
+
 
 const ResumeBody = props => {
   const { children } = props
